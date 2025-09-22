@@ -287,9 +287,9 @@ step 1: create 3 redhat systems
 
 [1- Ansible system, 2- Host systems for demo] in AWS
 
-ansible server: 172.31.32.65
-Host machine 1: 172.31.34.254
-Host machine 2: 172.31.33.88
+ansible server: 172.31.25.139
+Host machine 1: 172.31.28.214
+Host machine 2: 172.31.18.245
 
 step 2:
 -------
