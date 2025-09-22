@@ -358,7 +358,7 @@ ansible-doc -l |grep "copy"
 
 ansible-doc copy ---> to see more about the module
 ansible-doc yum
-ansible-doc shell
+ansible-doc shell -------exe some cmds use shell module
 
 
 
@@ -368,14 +368,14 @@ some sample commands
 shell module
 ------------
 
-ansible all -m shell -a "df -kh"       [ a means arguments]
+ansible all -m shell -a "df -Th"       [ a means arguments]
 
 ansible all -m shell -a "git --version"
 
 NOTE: in ansible default module is "shell"
 
 ansible all -m shell -a "uptime" or ansible all -a "uptime"
-
+ansible all -m shell -a "touch ansible.txt"    
 
 IQ] instead of checking all the servers how to check for specific servers like DB or app
 
@@ -392,47 +392,6 @@ ansible all -b -m yum -a "name=git"
 ansible all -b -m yum -a "name=java"
 
 ansible all -a "java --version"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ansible all -b -m yum -a "name=httpd state=present" --> Install httpd package in all node.
 
