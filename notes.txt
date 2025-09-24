@@ -497,7 +497,6 @@ ansible all -b -m command -a "touch security.py"
 
 ---
 - hosts: all
-  become: true
   tasks:
   - name : creating a file in all host machines
     file:
