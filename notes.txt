@@ -152,7 +152,9 @@ Host Inventory:
 ===============
 
 
-In Ansible, the host inventory is a file that defines the hosts (machines) that Ansible will manage. This file can be in various formats, but the most common is the INI format. You can also use YAML format for more complex structures.
+In Ansible, the host inventory is a file that defines the hosts (machines) that Ansible will manage. This file can be in various formats,
+
+but the most common is the INI format. You can also use YAML format for more complex structures.
 
 Some important points in Inventory file.
 -   Comments begin with the '#' character
@@ -189,7 +191,8 @@ kkdevops.com
 
 1. static inventory
 -------------------
-It is a file in the ansible server. It contains the host machine details, Whenever we want to add/remove server information we have to update the static inventory file manually.
+It is a file in the ansible server. It contains the host machine details, Whenever we want to add/remove server information 
+we have to update the static inventory file manually.
 
 
 
