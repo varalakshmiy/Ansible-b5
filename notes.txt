@@ -718,7 +718,8 @@ host_vars
 debug module in ansible
 ========================
 
-The debug module in Ansible is a useful tool for outputting information during playbook execution. It helps you inspect variables, confirm task execution, and troubleshoot issues in your Ansible scripts.
+The debug module in Ansible is a useful tool for outputting information during playbook execution. It helps you inspect variables, 
+confirm task execution, and troubleshoot issues in your Ansible scripts.
 
 
 Example
